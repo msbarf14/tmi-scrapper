@@ -3,9 +3,13 @@ const PORT = process.env.PORT || 3001
 const axios = require('axios')
 const cheerio = require('cheerio')
 const express = require('express')
+const cors = require('cors')
+
 
 const url = "https://tmial-amien.sch.id/"
 const app = express()
+
+app.use(cors())
 
 app.get('/', (req, res) => {
     res.json('avenzhore @ar14')
