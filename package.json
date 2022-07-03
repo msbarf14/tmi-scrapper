@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx nodemon index.js",
     "init": "npm install -g p2m",
-    "prod": "pm2 start server.js --name api-avenz"
+    "prod": "pm2 start index.js --name api-avenz"
   },
   "author": "archiron",
   "license": "ISC",
